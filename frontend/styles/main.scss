@@ -1,0 +1,261 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    color: #071c4d;
+}
+
+//Navbar
+
+.navbar-brand{
+    img {
+     max-height: 40px;
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: #071c4d;
+
+            &.active{
+                font-weight: bold;
+                color: #071c4d !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right{
+    margin: -10px -18px -8px 0px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login{
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover{
+        background-color: #1E3771;
+        color: #fff;
+    }
+}
+
+// Header
+
+header{
+    padding : 180px 0px 165px;
+    margin-top: -70px;
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+
+    h1,p{
+        color: #fff;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: #FFF;
+
+        &:hover{
+            background-color: #FFAA69;
+            color: #FFF;
+        }
+    }
+}
+
+// Statistics
+
+.section-stats{
+    margin-top: -50px;
+
+    .stats-detail{
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+//Popular
+
+.section-popular{
+    min-height: 540px;
+    background-color: #051134;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading{
+        margin-top: 150px;
+    }
+
+    h2,p{
+        color: #fff;
+    }
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+.section-popular-content{
+    .section-popular-travel{
+        .card-travel{
+            min-height: 380px;
+            background-color: #fff;
+            color: #FFF;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country{
+            font-size: 18px;
+            color: #FFF;
+        }
+
+        .travel-location{
+            font-size: 26px;
+            color: #FFF;
+        }
+
+        .travel-button{
+            .btn-travel-details{
+                background-color: #FF9E53;
+                color: #FFF;
+
+                &:hover{
+                    background-color: #FFAE6F;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+
+.section-networks{
+    background-color: #FFF;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading{
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial{
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-content{
+        min-height: 380px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .testimonial{
+        font-weight: 200;
+        font-size: 26px;
+        min-height: 160px;
+        text-align: center;
+        color: #6e6e6e;
+    }
+
+    .trip-to{
+        font-weight: normal;
+        font-size: 22px;
+        color: #6e6e6e;
+    }
+
+    hr{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: #FFF;
+    
+        &:hover{
+            background-color: #FFAA69;
+            color: #FFF;
+        }
+    }
+
+    .btn-need-help{
+        background-color: #F2F2F2;
+        color: #000000;
+    
+        &:hover{
+            background-color: #FAFAFA;
+            color: #C3C3C3;
+        }
+    }
+}
+
+.section-footer{
+    a{
+        color: #071C4D;
+    }
+}

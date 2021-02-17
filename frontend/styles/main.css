@@ -1,0 +1,240 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin: -10px -18px -8px 0px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #1E3771;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0px 165px;
+  margin-top: -70px;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFF;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051134;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular h2, .section-popular p {
+  color: #fff;
+}
+
+.section-popular h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #fff;
+  color: #FFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #FFF;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #FFF;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #FFAE6F;
+  color: #FFF;
+}
+
+.section-networks {
+  background-color: #FFF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  min-height: 160px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFF;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #FAFAFA;
+  color: #C3C3C3;
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+/*# sourceMappingURL=main.css.map */
